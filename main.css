@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    font-family: "Roboto Slab", serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+font-size: normal;
+}
+
+li, p {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding:16px 16px;
+}
+
+header{
+    padding: 16px 0;
+    background-color:rgb(65, 65, 236);
+    color: white;
+}
+
+h1{
+    font-size: 100px;
+    
+}
+
+.conteiner{
+    display:flex;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 24px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.conteiner{
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .conteiner{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteiner h2{
+    font-size: 36px;
+}
+
+.conteiner{
+    margin-bottom: 58px;
+}
+
+section{
+    display:flex;
+}
+#imagem{
+    height: 450px;
+    width: 450px;
+}
+section .conteiner{
+    align-items: flex-start;
+}
+section{
+    background-color: rgba(127, 157, 255, 0.178);
+}
+
+p,
+.titulos{
+    font-size: 28px;
+}
+
+.conteiner p
+,ul{
+    margin-left: 100px;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section .h2,li{   
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+#history{
+    background-color: rgba(22, 36, 223, 0.466);
+}
+
+#champs{
+    background-color: rgba(154, 154, 202, 0.644);
+}
+
+footer{
+    display: flex;
+    background-color:rgb(65, 65, 236);
+    color: white;
+    justify-content:space-between;
+}
+
+
